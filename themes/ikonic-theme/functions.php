@@ -199,7 +199,7 @@
   function quotes_shortcode_function()
   {
     $quotes = array();
-
+    
     for ($i = 0; $i < 5; $i++) {
       $response = wp_remote_get('https://api.kanye.rest/quotes/');
       if (is_array($response) && !is_wp_error($response)) {
