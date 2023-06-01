@@ -1,0 +1,79 @@
+/*
+Theme Name: Ikonic
+Author: Dilawar Abbas
+Description: Assessment for wordpress developer
+Version: 0.01
+*/
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.ik-header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.ik-header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.ik-header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ik-header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.ik-header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.ik-header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .ik-header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .ik-header-right {
+    float: none;
+  }
+}
+.ik-footer {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+.ik_pagination a {
+    text-decoration: none;
+}
+.ik_pagination {
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
